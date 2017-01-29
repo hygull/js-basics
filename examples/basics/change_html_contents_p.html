@@ -1,0 +1,36 @@
+<!doctype html><!--doctype declaration-->
+<html>
+	<head>
+		<title>Change HTML contents</title>
+	</head>
+	<body>
+		<center>
+			<!--Displaying my fullname after clicking on to the button-->
+			<p id='name'>Rishikesh</p>
+
+			<button onclick="document.getElementById('name').innerHTML='Rishikesh Agrawani'">Click here to see my fullname</button>
+
+			<!--Displaying fullname of my brother after clicking on to yhe button-->
+			<p id='bro-name' style='color:green;font-size:20px'>Hemkesh</p>
+
+			<button onclick="document.getElementById('bro-name').innerHTML='Hemkesh Agrawani'" style='color:green;font-size: 20px;'>Click here to see my brother's fullname</button>
+
+			<!--Displaying fullname of my sister after clicking on to yhe button-->
+			<p id='sis-name' style='color:blue;font-size:30px'>Malinikesh</p>
+
+			<button onclick="document.getElementById('sis-name').innerHTML='Malinikesh Agrawani'" style='color:blue;font-size: 30px;'>Click here to see my sister's fullname</button>
+
+			<br><!--Newline-->
+			<br>
+			<br>
+			<hr>
+			<button onclick="document.getElementById('name').innerHTML='Rishikesh'" style='color:gray;font-size: 25px;'>Reset my name</button><br><br>
+			
+			<button onclick="document.getElementById('bro-name').innerHTML='Hemkesh'" style='color:red;font-size: 28px;'>Reset my brother's name</button><br><br>
+
+			
+			<button onclick="document.getElementById('sis-name').innerHTML='Malinikesh'" style='color:orange;font-size: 30px;'>Reset my sister'sname</button>
+
+		</center>
+	</body>
+</html>

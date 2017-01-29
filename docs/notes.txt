@@ -1,0 +1,8 @@
+1) font-size:20   //Wrong
+2) font-size:20px //Right...if it is the last one in inline styling
+3) font-size:20px;//Right
+
+4) bro-name //Ok
+5) name //Ok
+6)
+sn
