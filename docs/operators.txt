@@ -1,0 +1,42 @@
+Operators:
+		1) Arithmetic operators : +, -, *, /, %, ++, --, **(Added in ES 7)
+		2) Comparison operators : ==, ===, !=, !==, <, <=, >, >=
+		3) Logical operators : ||, &&, !
+		4) Bitwise operators : |, &, ^, ~, <<, >> (JS uses 32 bits signed numbers)
+		5) Assignment operators : =, +=, -=, *=, /=, %=
+		6) String operators : =, +=
+		7) Conditional operators : 	?:
+		8) typeof operator
+		9) instanceof opeartor
+		10) in operator
+		11) void operator
+		12) delete operator
+
+examples:
+		"PI" in Math
+		"NaN" in Number
+		"Rishikesh" in String
+
+		var cities=["Bagalore", "Raipur", "Kondagaon"]
+		cars instanceof Array  //true
+		cars instanceof Object //true
+		cars instanceof Number //false
+
+		<a href='javascript:void(0);'>
+			Useless link
+		</a>
+		<a href='javascript:void(document.body.style.backgroundColor="red");'>
+			Click me to change body bg color to red
+		</a>
+
+		var person={"name":"Rishikesh","age":24};
+		delete person.age ;
+		delete person["name"];
+
+		typeof NaN
+		typeof 3.14
+		typeof function(){}
+		typeof null
+		typeof new Date()
+
+

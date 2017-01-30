@@ -1,0 +1,20 @@
+> Number.MAX_VALUE
+1.7976931348623157e+308
+> 12.toString()
+12.toString()
+^^^
+SyntaxError: Invalid or unexpected token
+
+> b=12
+12
+> b.toString()
+'12'
+> b.toString()
+'12'
+> b.toString(2)
+'1100'
+> b.toString(8)
+'14'
+> b.toString(16)
+'c'
+> 
