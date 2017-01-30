@@ -1,0 +1,56 @@
+<!doctype html><!--doctype declaration-->
+<html>
+	<head>
+		<title>Add</title>
+		<script type="text/javascript">
+			function add(x,y){
+				return x+y;
+			}
+
+			function addNumbersOnFields(){
+				//It is not the proper way...We should use separate function to validate the i/p...it is for beginners so they could easily understand it
+				a=document.getElementById("input_num1").value;
+				var num1,num2;
+				if (!isNaN(a)){
+					num1=parseInt(a);
+					console.log(num1);
+				}else{
+					alert("Not a number");
+					window.location.reload();
+				}
+
+				b=document.getElementById("input_num2").value;
+				var num1,num2;
+				if (!isNaN(b)){
+					num2=parseInt(b);
+						console.log(num2);
+				}else{
+					alert("Not a number");
+					window.location.reload();
+				}
+				return num2+num1;
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<br>
+			<br>
+			<input name='num1' id='input_num1' type='text'>
+			<input name='num2' id='input_num2' type='text'>
+			<br>
+			<p id="p_add2" style='color: red;font-size: 30px;'></p>
+			<button onclick="document.getElementById('p_add2').innerHTML=addNumbersOnFields();">Add</button>
+			
+			<br>
+			<br>
+			<hr>
+			<br>
+			<p id="p_add" style='color: red;font-size: 30px;'></p>
+			<button onclick="document.getElementById('p_add').innerHTML=add(23,27);">Add 23 &amp; 27</button>
+			
+			
+		</center>
+
+	</body>
+</html>
