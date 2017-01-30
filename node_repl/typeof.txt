@@ -1,0 +1,5 @@
+> typeof 34%1
+NaN
+> typeof (34%1)
+'number'
+> 

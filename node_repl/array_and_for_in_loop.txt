@@ -1,0 +1,32 @@
+admins-MacBook-Pro-3:js-basics admin$ node
+> numbers=[12,4,9,3,10,21,24,43]
+[ 12, 4, 9, 3, 10, 21, 24, 43 ]
+> for (index  in numbers){ 
+... console.log(index);
+... }
+0
+1
+2
+3
+4
+5
+6
+7
+undefined
+> for (index  in numbers){ 
+... if (numbers[index]%2==0){
+.....  console.log("Even"+numbers[index]);
+..... }else{
+..... console.log("Odd"+numbers[index]);
+..... }
+... }
+Even12
+Even4
+Odd9
+Odd3
+Even10
+Odd21
+Even24
+Odd43
+undefined
+> 

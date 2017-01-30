@@ -1,0 +1,14 @@
+Display a prompt box which ask the user for her/his name, and output a message:
+
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+}
+
+The prompt() method displays a dialog box that prompts the visitor for input.
+
+A prompt box is often used if you want the user to input a value before entering a page.
+
+prompt(text, defaultText)
