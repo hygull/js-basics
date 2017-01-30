@@ -1,0 +1,80 @@
+admins-MacBook-Pro-3:js-basics admin$ node
+> /*JS Arithmetic operators => + - * / ++ -- & **(added in ES 2016/ES 7)*/
+undefined
+> console.log("Ok");
+Ok
+undefined
+> console.log(2+3)
+5
+undefined
+> console.log(2-3)
+-1
+undefined
+> console.log(2*3)
+6
+undefined
+> console.log(2/3)
+0.6666666666666666
+undefined
+> console.log(2%3)
+2
+undefined
+> console.log(2**3)   /*ES 7 or ES 2016 included ** operator */
+8
+undefined
+> var c = 5
+undefined
+> console.log(c)
+5
+undefined
+> console.log(++c)
+6
+undefined
+> var d = 5
+undefined
+> console.log(d++)
+5
+undefined
+> console.log(d)
+6
+undefined
+> var a=10;
+undefined
+> console.log(--a);
+9
+undefined
+> console.log(a);
+9
+undefined
+> var b=10;
+undefined
+> console.log(b--);
+10
+undefined
+> console.log(b);
+9
+undefined
+> 8+2
+10
+> 9**2
+81
+> a
+9
+> b
+9
+> c
+6
+> d
+6
+> function add(x,y){
+... return x+y;
+... }
+undefined
+> add(50,5);
+55
+> 
+
+
+
+
+ 

@@ -1,0 +1,33 @@
+> var paddings=["0px 0px 0px 10px","0px 0px 0px 15px","0px 0px 0px 20px","0px 0px 0px 25px","0px 0px 0px 30px"];
+undefined
+> for (p in paddings){
+... console.log(p,typeof p);
+... }
+0 string
+1 string
+2 string
+3 string
+4 string
+undefined
+> for (p in paddings){
+... console.log(paddings[0],typeof p);
+... 
+... }
+0px 0px 0px 10px string
+0px 0px 0px 10px string
+0px 0px 0px 10px string
+0px 0px 0px 10px string
+0px 0px 0px 10px string
+undefined
+> for (i=0;i<paddings.length;i++){
+... console.log(paddings[i],typeof p);
+... }
+0px 0px 0px 10px string
+0px 0px 0px 15px string
+0px 0px 0px 20px string
+0px 0px 0px 25px string
+0px 0px 0px 30px string
+undefined
+> 2+"ok"
+'2ok'
+> 

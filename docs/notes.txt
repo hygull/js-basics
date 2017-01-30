@@ -4,5 +4,21 @@
 
 4) bro-name //Ok
 5) name //Ok
-6)
-sn
+6) Similarity with python=> 'string' & "string"  are same
+7) In HTML, JavaScript code must be inserted between <script> and </script> tags.
+8) Old JavaScript examples may use a type attribute: <script type="text/javascript">.
+   The type attribute is not required. JavaScript is the default scripting language in HTML.
+9) We can place any number of scripts in an HTML document.
+10) Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+11) <img> tag:
+				Differences Between HTML 4.01 and HTML5
+				The following attributes: align, border, hspace, and vspace are not supported in HTML5.
+
+				Differences Between HTML and XHTML
+				In HTML the <img> tag has no end tag.
+
+				In XHTML the <img> tag must be properly closed.
+12) <map>       : attr => name
+		<area>	: attr => coords,shape,alt,href,
+		</area>
+	</map>

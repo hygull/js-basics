@@ -1,0 +1,29 @@
+<!doctype html><!--doctype declaration-->
+<html>
+	<head>
+		<script type="text/javascript">//In HTML5 type is optional
+			var text_obj=null;
+			function init(){
+				text_obj=document.getElementById("ok");
+				text_obj.style.padding="0px 0px 0px 0px";
+			}
+			function padd(){
+				text_obj.style.padding=parseInt(text_obj.style.padding)+10+"px";
+				document.getElementById("span_text").innerHTML=parseInt(text_obj.style.padding);
+			}
+			window.onload=init;
+		</script>
+		<title></title>
+	</head>
+	<body>
+		
+		<center>
+			<div id='ok' style="color:red;font-weight: bold;font-size: 40px;margin-bottom: 0px;">Ok<span  id="span_text" style="color:green;font-weight: bold;font-size: 40px;"></span></div>
+			<br>
+			<button onclick="padd();" style="font-weight: bold;font-size: 40px;">Animate</button>
+		</center>
+		<p id="span_text"></p>
+
+		
+	</body>
+</html>

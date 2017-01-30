@@ -1,0 +1,9 @@
+1) Change HTML Content		{document.getElementById('name').innerHTML="Rishikesh Agrawani";}
+							{document.getElementById("name").innerHTML='Rishikesh Agrawani';}
+2) Change HTML Attributes   {document.getElementById('bulb_img').src="dark_bulb.png";}
+
+3) Change HTML styles 		{document.getELementById('name').style.fontSize='40px';}
+
+4) Hide element				{document.getElementById("name").display="none";}
+
+5) Hide element 			{document.getElementById("name").display="block";}

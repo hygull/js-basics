@@ -1,0 +1,12 @@
+> power=(x,y)=>{Math.pow(x,y)}
+[Function: power]
+> power(2,3)
+undefined
+> power=(x,y)=>{return Math.pow(x,y)}
+[Function: power]
+> power(2,3)
+8
+> power2=(x,y)=> Math.pow(x,y)
+[Function: power2]
+> power2(2,3)
+8
