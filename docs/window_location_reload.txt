@@ -1,0 +1,4 @@
+prompt("enter a number");
+
+window.location.reload(); //load from cache
+window.location.reload(true); //load form server

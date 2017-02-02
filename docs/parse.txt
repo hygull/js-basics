@@ -1,0 +1,3 @@
+parseInt("234");
+
+parseInt("234.67");

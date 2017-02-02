@@ -1,0 +1,5 @@
+Online Javascript practice(learn):
+	https://www.javascript.com/try
+
+Arrow functions:
+	http://www.javascriptkit.com/javatutors/javascriptarrowfunctions.shtml
