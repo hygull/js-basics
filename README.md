@@ -21,3 +21,10 @@
 ## :mag: Other resources
 #### * [Color hex values](http://www.w3schools.com/colors/colors_hex.asp)
 #### * [Tags](http://www.w3schools.com/tags/)
+#### * [Javascript popup boxes](http://www.w3schools.com/js/js_popup.asp)
+#### * [Javascript location](http://www.w3schools.com/js/js_window_location.asp)
+#### * [Javascript history](http://www.w3schools.com/js/js_window_history.asp)
+#### * [Javascript screen](http://www.w3schools.com/js/js_window_screen.asp)
+#### * [Javascript timing](http://www.w3schools.com/js/js_timing.asp)
+#####   setTimeout(), setInterval(),clearTimeout()
+#### * [difference between display & visiblility property, just try it](http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_display2)

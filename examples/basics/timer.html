@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<script type="text/javascript">
+			setInterval(setTimer,1000);
+			function setTimer(){
+				d=new Date();
+				document.getElementById("span_timer").innerHTML=d.toLocaleString();
+			}
+		</script>
+
+	</head>
+	<body>
+		<center>
+			<span id="span_timer"></span>
+		</center>
+	</body>
+</html>
