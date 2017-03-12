@@ -1,0 +1,13 @@
+> var cities = ["Bangalore","London","Delhi","Newyork","Raipur"];
+undefined
+> cities
+[ 'Bangalore', 'London', 'Delhi', 'Newyork', 'Raipur' ]
+> cities.splice(2,1)     //Removing 1 item at index 2 i.e Delhi
+[ 'Delhi' ]
+> cities
+[ 'Bangalore', 'London', 'Newyork', 'Raipur' ]
+> cities.splice(0,2)     //Removing 2 items at index 0 i.e Bangalore & London
+[ 'Bangalore', 'London' ]
+> cities
+[ 'Newyork', 'Raipur' ]
+> 

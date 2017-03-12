@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+<body>
+
+<p>Click the button to display the sine value of 3.</p>
+
+<button onclick="myFunction()">Try it</button>
+<div class="container">
+<canvas id="myChart"> </canvas>
+<p id="demo"></p>
+</div>
+
+<script>
+document.getElementById("demo").innerHTML=Math.sin(90*Math.PI/180.0)
+;
+function myFunction() {
+	    var ctx = document.getElementById("myChart").getContext("2d");
+        
+        var myChart = new Chart(ctx, {
+        
+        	type:"line",
+            data:{
+            	labels:["0","15","30","45","60","75","90","105","120","135","150","165","180"],
+                datasets:[
+                	{
+                       label:"sin",
+                       data:[Math.sin(0*Math.PI/180.0),Math.sin(15*Math.PI/180.0),Math.sin(30*Math.PI/180.0),Math.sin(45*Math.PI/180.0),Math.sin(60*Math.PI/180.0),Math.sin(75*Math.PI/180.0),Math.sin(90*Math.PI/180.0),Math.sin(105*Math.PI/180.0),Math.sin(120*Math.PI/180.0),Math.sin(135*Math.PI/180.0),Math.sin(150*Math.PI/180.0),Math.sin(165*Math.PI/180.0),Math.sin(180*Math.PI/180.0)],
+                       backgroundColor:"#B1BD8D"
+                    }
+                
+                ]
+            }
+        });
+}
+</script>
+
+</body>
+</html>
